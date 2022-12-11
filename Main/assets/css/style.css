@@ -1,0 +1,68 @@
+:root {
+  --dark: #13293d;
+  --light: #fff;
+  --navlink-color: #b9c6ae;
+  
+  --dark-background: rgb(44, 44, 66);
+  --dark-text:  red;
+  --med-text: orange;
+  --light-text: rgb(172, 171, 236);
+  --border-color: rgb(234, 151, 241);
+    }
+
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+h1 {
+  font-size: 200%;
+}
+
+h2 {
+  margin: 2% 0;
+  font-size: 250%;
+}
+
+h3 {
+  font-size: 150%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+nav a {
+  align-items:flex-end
+  background-color: unset;
+  color: var(--light-text);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+nav a:hover {
+  color: var(--light);
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  background-color: var(--dark);
+  color: var(--light);
+}
+
